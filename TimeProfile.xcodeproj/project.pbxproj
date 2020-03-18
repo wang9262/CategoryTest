@@ -14,6 +14,10 @@
 		E399E55E24191A1B00220BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E399E55D24191A1B00220BC1 /* Assets.xcassets */; };
 		E399E56124191A1B00220BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399E55F24191A1B00220BC1 /* LaunchScreen.storyboard */; };
 		E399E56424191A1B00220BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E399E56324191A1B00220BC1 /* main.m */; };
+		E399E56F24191C1D00220BC1 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E399E56E24191C1D00220BC1 /* Test1.m */; };
+		E399E57224191C2300220BC1 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = E399E57124191C2300220BC1 /* Test2.m */; };
+		E399E57524191C2900220BC1 /* Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = E399E57424191C2900220BC1 /* Test3.m */; };
+		E399E57824191E4200220BC1 /* Test4.m in Sources */ = {isa = PBXBuildFile; fileRef = E399E57724191E4200220BC1 /* Test4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,15 @@
 		E399E56024191A1B00220BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E399E56224191A1B00220BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E399E56324191A1B00220BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E399E56A24191B4200220BC1 /* UIView+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Test.h"; sourceTree = "<group>"; };
+		E399E56D24191C1D00220BC1 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		E399E56E24191C1D00220BC1 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		E399E57024191C2300220BC1 /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		E399E57124191C2300220BC1 /* Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		E399E57324191C2900220BC1 /* Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3.h; sourceTree = "<group>"; };
+		E399E57424191C2900220BC1 /* Test3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3.m; sourceTree = "<group>"; };
+		E399E57624191E4200220BC1 /* Test4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4.h; sourceTree = "<group>"; };
+		E399E57724191E4200220BC1 /* Test4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +78,17 @@
 				E399E55224191A1800220BC1 /* AppDelegate.m */,
 				E399E55424191A1800220BC1 /* SceneDelegate.h */,
 				E399E55524191A1800220BC1 /* SceneDelegate.m */,
+				E399E56A24191B4200220BC1 /* UIView+Test.h */,
 				E399E55724191A1800220BC1 /* ViewController.h */,
 				E399E55824191A1800220BC1 /* ViewController.m */,
+				E399E56D24191C1D00220BC1 /* Test1.h */,
+				E399E56E24191C1D00220BC1 /* Test1.m */,
+				E399E57024191C2300220BC1 /* Test2.h */,
+				E399E57124191C2300220BC1 /* Test2.m */,
+				E399E57324191C2900220BC1 /* Test3.h */,
+				E399E57424191C2900220BC1 /* Test3.m */,
+				E399E57624191E4200220BC1 /* Test4.h */,
+				E399E57724191E4200220BC1 /* Test4.m */,
 				E399E55A24191A1800220BC1 /* Main.storyboard */,
 				E399E55D24191A1B00220BC1 /* Assets.xcassets */,
 				E399E55F24191A1B00220BC1 /* LaunchScreen.storyboard */,
@@ -146,9 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E399E57224191C2300220BC1 /* Test2.m in Sources */,
 				E399E55924191A1800220BC1 /* ViewController.m in Sources */,
 				E399E55324191A1800220BC1 /* AppDelegate.m in Sources */,
+				E399E57524191C2900220BC1 /* Test3.m in Sources */,
+				E399E56F24191C1D00220BC1 /* Test1.m in Sources */,
 				E399E56424191A1B00220BC1 /* main.m in Sources */,
+				E399E57824191E4200220BC1 /* Test4.m in Sources */,
 				E399E55624191A1800220BC1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPT57W2V37;
 				INFOPLIST_FILE = TimeProfile/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPT57W2V37;
 				INFOPLIST_FILE = TimeProfile/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
